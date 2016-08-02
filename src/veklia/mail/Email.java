@@ -34,7 +34,7 @@ public class Email implements Serializable {
 	public static String FROM;// 发件人
 
 	public static String USER_NAME;
-	public static String PASSWORD;
+	public static String PASSWORD;//一般情况下为邮箱密码。有部分需要使用授权码，如126,163邮箱，则这里的值是授权码。
 	public static boolean VALIDATE;// 是否需要验证
 	public static String CHARSET;//HTML内容邮件的字符集编码。
 
